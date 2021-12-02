@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.left{
+    display: inline-block;
+    width: 50%;
+    height: 10vh;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    display: inline-block;
+    width: 49%;
+    height: 10vh;
+    text-align: end;
+    font-size: 1.5em;
+}
+.right img{
+    height: 70%;
+}
+header{
+    height: 10vh;
+    padding-top: 3vh;
+}
+.main{
+    background-image: url(./taun/header-bg-1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+main{
+    border: 45px solid rgb(255, 227, 71);
+    width: 100%;
+    height: 70vh;
+    margin-top: 10vh;
+    text-align: center;
+    padding-top: 5vh;
+}
+main h1{
+    font-size: 2em;
+}
+main button{
+    background-color: rgb(255, 227, 71);
+    padding: 10px 15px;
+    border: none;
+}
+
+.item{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+.item img{
+    width: 50%;
+}
+.container > h1{
+    position: relative;
+}
+.container > h1::before{
+    content: '';
+    background-color: black;
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    top: 10px;
+    left: -50px;
+}
+
+.location {
+    margin: 10vh 0;
+}
+
+.location p {
+    margin: 20px 0;
+}
+
+.apartment{
+    height: 50vh;
+}
+
+.apartment h1 {
+    font-weight: bold;
+}
+
+.l{
+    display: inline-block;
+    width: 50%;
+}
+.l img{
+    width: 100%;
+}
+.r{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    position: relative;
+}
+.r h4{
+    padding: 5px 10px;
+    border: 5px solid rgb(255, 227, 71);
+    width: fit-content;
+}
+.r .box{
+    top: -30px;
+    left: 70%;
+}
+
+.r .box-two {
+    top: -70px;
+    left: -20%;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border: 10px solid rgb(255, 227, 71);
+}
+
+.r .box-three {
+    top: 250px;
+    left: -25%;
+}
+
+.r p {
+    margin:13px 0;
+}
+.element{
+    width: 90%;
+    height: 50px;
+    margin: 15px 10px;
+    display: inline-block;  
+}
+
+.element h3 {
+    font-weight: 1;
+}
+
+.element p {
+    font-weight: 1;
+    font-size: 15px;
+    display: block;
+}
+
+.element img {
+    display: inline;
+    height: 100%;
+    float: left;
+    margin: 10px;
+}
+
+.al{
+    display: inline-block;
+    width: 49%;
+}
+.ar{
+    display: inline-block;
+    width: 49%;
+}
+
+.big-image {
+    background-image: url(./taun/3-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+
+}
+
+.advan {
+    color:black;
+}
+
+.advan button {
+    background: gold;
+    padding: 15px 40px;
+    border:none;
+    font-size: 20px;
+    margin: 80px 0;
+    margin-left: 30%;
+}
+
+.contact {
+    background-image: url(./taun/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.contact .left {
+    color:white;
+    
+}
+
+.contact .left p {
+   margin: 20px 0;
+}
+
+.contact h1 {
+    color:gold;
+}
+
+.contact .right {
+    text-align: center;
+}
+
+.contact__form{
+    text-align: center;
+    margin-left: 50px;
+ }
+
+ .contact__form input {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    padding: 20px;
+ }
+
+.contact__input{
+   display: block;
+}
+
+.contact__submit {
+    background: gold;
+    display: block;
+}
+
+.contact__number {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.contact__number p {
+    color:white;
+}
+
+.contact__two {
+    background-image: url(./taun/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact__two h1 {
+    color:gold;
+    margin:20px 0
+}
+
+.contact__two h2 {
+    color:white;
+}
+
+.contact__two label {
+    text-align: center;
+}
+
+
+hr {
+    margin-bottom: 50px;
+}
